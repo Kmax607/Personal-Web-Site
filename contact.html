@@ -29,6 +29,12 @@
             nav li a:hover {
                 background-color: #111;
             }
+
+            .banner-image {
+                display: block;
+                margin: 0 auto;
+                max-width: 50%;
+                height: auto;
         </style>
     </head>
     <meta charset="UTF-8">
@@ -48,14 +54,21 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
-<body>
-<p>
-    Here are some games I've designed over the years. Please check them out and enjoy!
-</p>
-<iframe frameborder="0" src="https://itch.io/embed/737319?link_color=0484d1" width="552" height="167"><a href="https://kmax607.itch.io/die-monsters">Die Monsters by Kmax607</a></iframe>
-<iframe frameborder="0" src="https://itch.io/embed/681834?link_color=0484d1" width="552" height="167"><a href="https://kmax607.itch.io/monocle">Monocle by Kmax607</a></iframe>
-<iframe frameborder="0" src="https://itch.io/embed/694607?link_color=0484d1" width="552" height="167"><a href="https://kmax607.itch.io/rutter-madness">Rudder Madness by Kmax607</a></iframe>
-<iframe frameborder="0" src="https://itch.io/embed/2032572?link_color=0484d1" width="552" height="167"><a href="https://kmax607.itch.io/monocle-2">Monocle 2 by Kmax607</a></iframe>
-<iframe frameborder="0" src="https://itch.io/embed/709450?link_color=0484d1" width="552" height="167"><a href="https://kmax607.itch.io/sheriff-shootout">Sheriff Shootout by Kmax607</a></iframe>
+
+<aside>
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xdoqgjlz" method="POST">
+        <label>
+            Your email:
+            <input type="email" name="email">
+        </label>
+        <label>
+            Your message:
+            <textarea name="message"></textarea>
+        </label>
+        <button type="submit">Send</button>
+    </form>
+</aside>
+
 </body>
 </html>
